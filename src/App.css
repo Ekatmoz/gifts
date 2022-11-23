@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(241, 248, 253);
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 550px;
+  margin-bottom: 50px;
+}
+.cover{
+  position: absolute;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.par {
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.box {
+  position: relative;
+  width: 500px;
+  margin-top: 200px;
+  /* background-color: rgb(139, 126, 116, 0.4); */
+}
+h1{
+  font-size: 3.5rem;
+  font-family: 'Yeseva One', cursive;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #C70039;
+  color: #fff;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
